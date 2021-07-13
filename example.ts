@@ -1,12 +1,3 @@
-# ts-match
-A TypeScript implementation of Rust's match control flow operator
-
-
-## Basic usage
-
-from [`example.ts`](./example.ts):
-
-```ts
 import {match} from './mod.ts';
 
 function doubleOddHalfEven (n: number): number {
@@ -22,4 +13,3 @@ console.log(doubleOddHalfEven(1)); //=> 2
 console.log(doubleOddHalfEven(12)); //=> 6
 console.log(doubleOddHalfEven(5)); //=> 10
 console.log(doubleOddHalfEven(3)); //=> 6
-```

@@ -1,4 +1,4 @@
-type Callback<T, U> = (value: T) => U;
+export type Callback<T, U> = (value: T) => U;
 
 export type Arm<T, U> = [
   valueMatches: Callback<T, boolean>,
